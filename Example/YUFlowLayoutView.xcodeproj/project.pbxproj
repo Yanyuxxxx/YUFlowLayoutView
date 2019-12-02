@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0C14A631CFA1067AA69BE1F8 /* YUFlowLayoutView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YUFlowLayoutView.podspec; path = ../YUFlowLayoutView.podspec; sourceTree = "<group>"; };
+		0C14A631CFA1067AA69BE1F8 /* YUFlowLayoutView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YUFlowLayoutView.podspec; path = ../YUFlowLayoutView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2A977B79D91395EB31B1D063 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		55F534225464798D064B11C4 /* Pods-YUFlowLayoutView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YUFlowLayoutView_Example.release.xcconfig"; path = "Target Support Files/Pods-YUFlowLayoutView_Example/Pods-YUFlowLayoutView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		5FE762C8F37CFC1D99F14B7B /* Pods_YUFlowLayoutView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YUFlowLayoutView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
