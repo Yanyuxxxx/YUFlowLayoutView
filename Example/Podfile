@@ -1,13 +1,13 @@
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/Yanyuxxxx/YURepo.git'
+
 use_frameworks!
 
 platform :ios, '8.0'
 
 target 'YUFlowLayoutView_Example' do
+  
   pod 'YUFlowLayoutView', :path => '../'
-
-  target 'YUFlowLayoutView_Tests' do
-    inherit! :search_paths
-
-    
-  end
+  #  pod 'YUFlowLayoutView'
+  
 end

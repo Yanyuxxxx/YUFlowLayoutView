@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		09AA29F0A830E40997FA69C3 /* Pods_YUFlowLayoutView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FE762C8F37CFC1D99F14B7B /* Pods_YUFlowLayoutView_Example.framework */; };
-		16D9BDE8367532F18D473CA2 /* Pods_YUFlowLayoutView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B118D05C0318D5FDEBB8951F /* Pods_YUFlowLayoutView_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -39,7 +38,6 @@
 /* Begin PBXFileReference section */
 		0C14A631CFA1067AA69BE1F8 /* YUFlowLayoutView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YUFlowLayoutView.podspec; path = ../YUFlowLayoutView.podspec; sourceTree = "<group>"; };
 		2A977B79D91395EB31B1D063 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		43095B1C01034A9CD3510AA8 /* Pods-YUFlowLayoutView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YUFlowLayoutView_Tests.release.xcconfig"; path = "Target Support Files/Pods-YUFlowLayoutView_Tests/Pods-YUFlowLayoutView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		55F534225464798D064B11C4 /* Pods-YUFlowLayoutView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YUFlowLayoutView_Example.release.xcconfig"; path = "Target Support Files/Pods-YUFlowLayoutView_Example/Pods-YUFlowLayoutView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		5FE762C8F37CFC1D99F14B7B /* Pods_YUFlowLayoutView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YUFlowLayoutView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* YUFlowLayoutView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YUFlowLayoutView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,10 +59,8 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		60F39AED31C86D855D07D6F4 /* Pods-YUFlowLayoutView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YUFlowLayoutView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-YUFlowLayoutView_Tests/Pods-YUFlowLayoutView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B118D05C0318D5FDEBB8951F /* Pods_YUFlowLayoutView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YUFlowLayoutView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCD39BE63AB2662B1A799F5F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		FF39075A26C197E1F54905B4 /* Pods-YUFlowLayoutView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YUFlowLayoutView_Example.debug.xcconfig"; path = "Target Support Files/Pods-YUFlowLayoutView_Example/Pods-YUFlowLayoutView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -88,7 +84,6 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				16D9BDE8367532F18D473CA2 /* Pods_YUFlowLayoutView_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,8 +95,6 @@
 			children = (
 				FF39075A26C197E1F54905B4 /* Pods-YUFlowLayoutView_Example.debug.xcconfig */,
 				55F534225464798D064B11C4 /* Pods-YUFlowLayoutView_Example.release.xcconfig */,
-				60F39AED31C86D855D07D6F4 /* Pods-YUFlowLayoutView_Tests.debug.xcconfig */,
-				43095B1C01034A9CD3510AA8 /* Pods-YUFlowLayoutView_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
@@ -136,7 +129,6 @@
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
 				5FE762C8F37CFC1D99F14B7B /* Pods_YUFlowLayoutView_Example.framework */,
-				B118D05C0318D5FDEBB8951F /* Pods_YUFlowLayoutView_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -223,7 +215,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "YUFlowLayoutView_Tests" */;
 			buildPhases = (
-				A03C0DE70F4D0A1D13608473 /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
@@ -295,28 +286,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		A03C0DE70F4D0A1D13608473 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-YUFlowLayoutView_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		C00AE36369B3F678A2FC9AA0 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -324,10 +293,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-YUFlowLayoutView_Example/Pods-YUFlowLayoutView_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/YUFlowLayoutView/YUFlowLayoutView.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YUFlowLayoutView.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -523,7 +494,6 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 60F39AED31C86D855D07D6F4 /* Pods-YUFlowLayoutView_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -548,7 +518,6 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 43095B1C01034A9CD3510AA8 /* Pods-YUFlowLayoutView_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

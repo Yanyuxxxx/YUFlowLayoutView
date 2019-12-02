@@ -1,6 +1,6 @@
 {
   "name": "YUFlowLayoutView",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "summary": "A short description of YUFlowLayoutView.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/Yanyuxxxx/YUFlowLayoutView",
@@ -13,10 +13,15 @@
   },
   "source": {
     "git": "https://github.com/Yanyuxxxx/YUFlowLayoutView.git",
-    "tag": "0.1.0"
+    "tag": "0.0.1"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "YUFlowLayoutView/Classes/**/*"
+  "source_files": "YUFlowLayoutView/Classes/**/*",
+  "dependencies": {
+    "Masonry": [
+
+    ]
+  }
 }

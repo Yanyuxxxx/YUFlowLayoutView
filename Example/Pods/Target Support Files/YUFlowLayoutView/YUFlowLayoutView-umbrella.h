@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "YUFlowLayoutView.h"
 
 FOUNDATION_EXPORT double YUFlowLayoutViewVersionNumber;
 FOUNDATION_EXPORT const unsigned char YUFlowLayoutViewVersionString[];

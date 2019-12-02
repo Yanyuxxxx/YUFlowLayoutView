@@ -1,16 +1,23 @@
 PODS:
-  - YUFlowLayoutView (0.1.0)
+  - Masonry (1.1.0)
+  - YUFlowLayoutView (0.0.1):
+    - Masonry
 
 DEPENDENCIES:
   - YUFlowLayoutView (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Masonry
 
 EXTERNAL SOURCES:
   YUFlowLayoutView:
     :path: "../"
 
 SPEC CHECKSUMS:
-  YUFlowLayoutView: 60a01789d5dd12db10664e0deeb1eeff9b71d453
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  YUFlowLayoutView: 3ae00eda9a1dc32fedede44749f2dad2bbafd26b
 
-PODFILE CHECKSUM: 0f7d96a55d20be3a1d22f2a6a67786535f354785
+PODFILE CHECKSUM: 79d4f94737982a384e2e85f1dda871f25753b877
 
 COCOAPODS: 1.8.4
