@@ -183,7 +183,7 @@
         NSArray *rowWidths = self.itemWidths[row];
         
         // 排列对齐方式, 计算 itemSpacing, ex
-        CGFloat itemSpacing;
+        CGFloat itemSpacing = minItemSpacing;
         switch (config.alignment) {
             case YUFlowLayoutViewAlignmentLeft: {
                 itemSpacing = minItemSpacing;
