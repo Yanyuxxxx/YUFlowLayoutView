@@ -21,6 +21,7 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		616C00BC23952CDD00A534F6 /* YUFlowLayoutExampleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 616C00BB23952CDD00A534F6 /* YUFlowLayoutExampleCell.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 /* End PBXBuildFile section */
@@ -36,8 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0C14A631CFA1067AA69BE1F8 /* YUFlowLayoutView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YUFlowLayoutView.podspec; path = ../YUFlowLayoutView.podspec; sourceTree = "<group>"; };
-		2A977B79D91395EB31B1D063 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		0C14A631CFA1067AA69BE1F8 /* YUFlowLayoutView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YUFlowLayoutView.podspec; path = ../YUFlowLayoutView.podspec; sourceTree = "<group>"; };
+		2A977B79D91395EB31B1D063 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		55F534225464798D064B11C4 /* Pods-YUFlowLayoutView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YUFlowLayoutView_Example.release.xcconfig"; path = "Target Support Files/Pods-YUFlowLayoutView_Example/Pods-YUFlowLayoutView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		5FE762C8F37CFC1D99F14B7B /* Pods_YUFlowLayoutView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YUFlowLayoutView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* YUFlowLayoutView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YUFlowLayoutView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,9 +60,11 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		616C00BA23952CDD00A534F6 /* YUFlowLayoutExampleCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YUFlowLayoutExampleCell.h; sourceTree = "<group>"; };
+		616C00BB23952CDD00A534F6 /* YUFlowLayoutExampleCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YUFlowLayoutExampleCell.m; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DCD39BE63AB2662B1A799F5F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		DCD39BE63AB2662B1A799F5F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		FF39075A26C197E1F54905B4 /* Pods-YUFlowLayoutView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YUFlowLayoutView_Example.debug.xcconfig"; path = "Target Support Files/Pods-YUFlowLayoutView_Example/Pods-YUFlowLayoutView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -96,7 +99,6 @@
 				FF39075A26C197E1F54905B4 /* Pods-YUFlowLayoutView_Example.debug.xcconfig */,
 				55F534225464798D064B11C4 /* Pods-YUFlowLayoutView_Example.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -141,6 +143,8 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* YUViewController.h */,
 				6003F5A6195388D20070C39A /* YUViewController.m */,
+				616C00BA23952CDD00A534F6 /* YUFlowLayoutExampleCell.h */,
+				616C00BB23952CDD00A534F6 /* YUFlowLayoutExampleCell.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -249,6 +253,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -335,6 +340,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				616C00BC23952CDD00A534F6 /* YUFlowLayoutExampleCell.m in Sources */,
 				6003F59E195388D20070C39A /* YUAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* YUViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
