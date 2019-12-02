@@ -1,0 +1,6 @@
+framework module YUFlowLayoutView {
+  umbrella header "YUFlowLayoutView-umbrella.h"
+
+  export *
+  module * { export * }
+}

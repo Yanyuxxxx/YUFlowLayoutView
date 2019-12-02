@@ -1,0 +1,16 @@
+PODS:
+  - YUFlowLayoutView (0.1.0)
+
+DEPENDENCIES:
+  - YUFlowLayoutView (from `../`)
+
+EXTERNAL SOURCES:
+  YUFlowLayoutView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YUFlowLayoutView: 60a01789d5dd12db10664e0deeb1eeff9b71d453
+
+PODFILE CHECKSUM: 0f7d96a55d20be3a1d22f2a6a67786535f354785
+
+COCOAPODS: 1.8.4

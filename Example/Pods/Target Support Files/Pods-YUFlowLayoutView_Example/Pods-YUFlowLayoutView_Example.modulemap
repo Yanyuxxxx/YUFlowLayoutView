@@ -1,0 +1,6 @@
+framework module Pods_YUFlowLayoutView_Example {
+  umbrella header "Pods-YUFlowLayoutView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

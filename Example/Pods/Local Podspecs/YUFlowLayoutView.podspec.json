@@ -1,0 +1,22 @@
+{
+  "name": "YUFlowLayoutView",
+  "version": "0.1.0",
+  "summary": "A short description of YUFlowLayoutView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Yanyuxxxx/YUFlowLayoutView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Yanyuxxxx": "812363941@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/Yanyuxxxx/YUFlowLayoutView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "YUFlowLayoutView/Classes/**/*"
+}
