@@ -143,6 +143,13 @@
     return [self fetchCellWithReuseIdentifier:identifier atIndex:indexPath.index];
 }
 
+- (__kindof YUFlowLayoutCell *)cellForItemAtIndexPath:(YUFLIndexPath *)indexPath {
+    if (indexPath.index > self.cells.count - 1) {
+        return nil;
+    }
+    return self.cells[indexPath.index];
+}
+
 
 #pragma mark - privite
 - (void)reloadItems {

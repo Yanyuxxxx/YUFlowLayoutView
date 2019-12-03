@@ -93,6 +93,8 @@ typedef enum : NSUInteger {
 
 - (__kindof YUFlowLayoutCell *)dequeueReusableCellWithIdentifier:(NSString *)identifier forIndexPath:(YUFLIndexPath *)indexPath;
 
+- (__kindof YUFlowLayoutCell *)cellForItemAtIndexPath:(YUFLIndexPath *)indexPath;
+
 @end
 
 NS_ASSUME_NONNULL_END
