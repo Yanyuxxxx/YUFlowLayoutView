@@ -84,7 +84,7 @@
 @property (nonatomic, strong) UIView *contentView;
 
 /** 缓存池 */
-@property (nonatomic, strong) NSMutableDictionary *cellCachepool;
+@property (nonatomic, strong) NSCache *cellCachepool;
 @property (nonatomic, copy, readwrite) NSArray<YUFlowLayoutCell *> *cells;
 
 /** item的width数组 (二维数组) */
@@ -102,7 +102,7 @@
     if (self) {
         _config = config;
         _needReloadItems = NO;
-        _cellCachepool = [NSMutableDictionary new];
+        _cellCachepool = [NSCache new];
         [self setUpSubViews];
     }
     return self;
